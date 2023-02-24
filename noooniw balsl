@@ -467,7 +467,7 @@ while task.wait(385) do
 -- Create entity
 local entity = Spawner.createEntity({
     CustomName = "Specimen 2", -- Custom name of your entity
-    Model = "bxassetid:////502243972", -- Can be GitHub file or rbxassetid
+    Model = "rbxassetid:////502243972", -- Can be GitHub file or rbxassetid
     Speed = 25, -- Percentage, 100 = default Rush speed
     DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 0,
